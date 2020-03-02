@@ -1,3 +1,14 @@
+#![deny(missing_docs)]
+
+//! # hilbert_image_to_sound
+//! A library for turning images into sound using Hilbert space-filling curves
+//!
+//! [Links to other related research projects](https://github.com/advancedresearch/hilbert_image_to_sound/issues/3)
+//!
+//! *Notice: This library is in rough shape now,
+//! just to demonstrating the concept. PRs are welcome!*
+
+/// Plays an image file as sound.
 pub fn play(file: &str) {
     use cpal::traits::{DeviceTrait, HostTrait, EventLoopTrait};
 
