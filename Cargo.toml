@@ -1,0 +1,10 @@
+[package]
+name = "hilbert_image_to_sound"
+version = "0.1.0"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+image = "0.23.0"
+cpal = "0.11.0"
+hilbert_curve = "0.2.0"
